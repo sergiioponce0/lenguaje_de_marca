@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuadro de Coche</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .car-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .car-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="car-box">
+    <img id="carImage" class="car-image" src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/49721733/rzFEFqClNtPQQnaS.png" alt="Coche">
+    <h2>Citroën C3</h2>
+    <p>Este compacto urbano está disponible con un motor de gasolina de 101 caballos...</p>
+    <p>6/10 Opinión del Citroën C3</p>
+    <p>Desde 14.590 €</p>
+    <button class="button" onclick="changeImage()">Cambiar Imagen</button>
+</div>
+
+<script>
+    let images = [
+        "https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/49721733/rzFEFqClNtPQQnaS.png",
+        "https://d41chssnpqdne.cloudfront.net/user_upload_by_module/chat_bot/files/49721733/SXcmEXrKitJzkicQ.png"
+    ];
+    let currentIndex = 0;
+
+    function changeImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        document.getElementById('carImage').src = images[currentIndex];
+    }
+</script>
+
+</body>
+</html>
