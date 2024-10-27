@@ -1,8 +1,14 @@
 header {
   width: 100%;
-  border: 1px solid rgb(0, 0, 0);
-  background-color: #414d75;
-  color: white;
+  
+  box-shadow: 0 0 5px;
+  background-color: #7284be;
+  color: rgb(255, 255, 255);
+}
+
+titulo {
+  box-shadow: 0 0 5px
+  color white
 }
 
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
@@ -18,6 +24,8 @@ header {
 }
 
 html, body {
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
