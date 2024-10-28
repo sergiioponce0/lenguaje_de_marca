@@ -21,8 +21,16 @@
             <h2 class="title">Madrid</h2>
             <p class="copy">Elige el coche perfecto para recorrer cada avenida y descubrir los secretos mejor guardados de la capital</p>
             <button class="btn" onclick="webmadrid()">Ver Coches</button>
-            <button class="verfotos"> Ver fotos</button>
+            <div class="overlay"></div>
+              <button id="open">Open Pop-up</button>
+           <div class="modal">
+             <h5 class="modal-title">Pop-up</h5>
+              <p>FOTO</p>
+             <button id="close">X</button>
+           </div>
+            <script src=".app.js"></script>
           </div>
+            
         </div>
         <div class="card">
           <div class="content">
@@ -88,6 +96,7 @@
           </div>
         </div>
       </main>
+      
     
         <script>
           function webmadrid() {
