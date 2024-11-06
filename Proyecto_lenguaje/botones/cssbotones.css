@@ -248,5 +248,27 @@ header {
   .dot:hover {
     cursor: pointer;
   }
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  #change-image-btn {
+    background-color: #c62828;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
   
   

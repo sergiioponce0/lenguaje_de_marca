@@ -1,12 +1,7 @@
-document.getElementById('dot1').addEventListener('click', function() {
-    document.getElementById('carImage').src = 'coche1.jpg';
+
+  const carImage = document.getElementById('car-image');
+  const changeImageBtn = document.getElementById('change-image-btn');
+
+  changeImageBtn.addEventListener('click', () => {
+    carImage.url = './Proyecto_lenguaje/fotos/bmw.webp';
   });
-  
-  document.getElementById('dot2').addEventListener('click', function() {
-    document.getElementById('carImage').src = 'coche2.jpg';
-  });
-  
-  document.getElementById('dot3').addEventListener('click', function() {
-    document.getElementById('carImage').src = 'coche3.jpg';
-  });
-  
