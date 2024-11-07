@@ -76,16 +76,18 @@ header {
     margin: 0;
     list-style-type: none;
   }
-  
+  /*dentro del min-height se toca la altura entre cada carta*/
   .contenedorCards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
+    
+    min-height: 60vh;
     padding: 20px 0;
     box-sizing: border-box;
+    height: 250px;
   }
   .contenedorCards .card {
     width: 450px;
@@ -109,7 +111,7 @@ header {
     transform: scale(0);
   }
   .contenedorCards .card .wrapper {
-    margin: 60px 10px 10px 10px;
+    margin: 10px 10px 200px 10px;
     padding-top: 250px;
     box-sizing: border-box;
     position: relative;
@@ -129,7 +131,7 @@ header {
     left: 0;
     width: 100%;
     height: 200px;
-    background-color: #b82d44;
+    background-color: #3f3a3a;
   }
   .contenedorCards .card .wrapper .imgProd {
     background-size: contain;
