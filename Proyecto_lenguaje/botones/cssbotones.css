@@ -9,8 +9,8 @@ header {
   :root {
     --d: 700ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
-    --font-sans: "Rubik", sans-serif;
-    --font-serif: "Cardo", serif;
+    --font-sans: "fuente", sans-serif;
+    --font-serif: "fuente", serif;
   }
   
   * {
@@ -29,9 +29,30 @@ header {
   
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400;900&display=swap");
   :root {
-    --currencyPrefix: "$";
+    --currencyPrefix: "";
   }
   
+  @font-face {
+    font-family: 'fuente';
+    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Black-Oblique-Trial-BF651b7fc5608e6.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'exp1';
+    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Bold-Oblique-Trial-BF651b7fc5f06a0.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'exp2';
+    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Condensed-Ultra-Light-Oblique-Trial-BF651b7fc714a97.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
   body {
     overflow-x: hidden;
     color: #666;
@@ -41,9 +62,8 @@ header {
     position: relative;
     transition: ease all 0.3s;
   }
-  body * {
-    font-family: "Roboto Condensed", sans-serif;
-  }
+  
+  
   body p, body h1, body h2, body h3, body h4, body h5, body h6 {
     margin: 0;
   }
@@ -61,7 +81,6 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     align-content: center;
     min-height: 100vh;
@@ -139,9 +158,9 @@ header {
 }
 
   .contenedorCards .card .wrapper .infoProd .nombreProd {
-    font-family: "Roboto", sans-serif;
+    font-family: "fuente", sans-serif;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 800;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -150,6 +169,7 @@ header {
     display: -webkit-box;
   }
   .contenedorCards .card .wrapper .infoProd .extraInfo .extraInfo2 {
+    font-family: "fuente", sans-serif;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -170,7 +190,7 @@ header {
     position: relative;
   }
   .contenedorCards .card .wrapper .infoProd .actions .preciosGrupo .precio {
-    font-family: "Roboto", sans-serif;
+    font-family: "fuente", sans-serif;
     color: #1d1d1d;
     font-size: 25px;
     font-weight: 600;
@@ -271,4 +291,7 @@ header {
     cursor: pointer;
   }
   
-  
+  p {
+    font-family: "exp1", sans-serif;
+    font-size:medium;
+  }
