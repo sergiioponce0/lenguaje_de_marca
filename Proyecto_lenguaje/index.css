@@ -1,9 +1,47 @@
-header {
+.header {
   width: 100%;
-  
-  box-shadow: 0 0 5px;
-  background-color: #7284be;
-  color: rgb(255, 255, 255);
+  height: 75px;
+  background: #242020;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;  }
+
+.logo {
+  float: left;
+  line-height: 75px;
+}
+
+.logo h1 {
+color: #fff;
+font-weight: 400;
+font-size: 24px;
+cursor: default;
+}
+
+.menu {
+float: right;
+line-height: 75px;
+font-family: var(--font-sans);
+}
+
+.menu a {
+color: #fff;
+text-decoration: none;
+display: inline-block;
+padding: 10px 15px;
+line-height: normal;
+font-size: 14px;
+font-family: var(--font-sans);
+transition: all 500ms ease;
+border-bottom: 4px solid transparent;
+text-align: right;
+}
+
+.menu a:hover {
+color: #2081a7;
+border-bottom: 4px solid #2081a7;
 }
 
 titulo {
@@ -32,11 +70,14 @@ html, body {
 body {
   display: grid;
   place-items: center;
-  background: linear-gradient(90deg, 
-        rgba(2, 0, 36, 1) 0%, 
-        rgba(209, 141, 51, 1) 28%, 
-        rgba(164, 66, 159, 1) 79%, 
-        rgba(124, 0, 255, 1) 100%);
+  background-image: url(/Proyecto_lenguaje/fotos/Diseño\ sin\ título.png);
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: filter brightness(80%);
+  
+}
+.fondo{
+  filter: brightness(0.5);
+  -webkit-filter: brightness(0.5);
 }
 
 .page-content {
@@ -65,6 +106,9 @@ body {
   overflow: hidden;
   padding: 1rem;
   width: 100%;
+  margin-top: 80px;
+  min-height: 43vh;
+  margin-bottom: -65px;
   text-align: center;
   color: whitesmoke;
   background-color: whitesmoke;
@@ -246,4 +290,23 @@ body {
 .card:focus-within .content > *:not(.title) {
     transition-duration: 0s;
   }
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border: 3px solid #242020;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  background: white;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+button:hover {
+  background: #242020;
+  color: white;
+  font-size: 0.9em;
 }
