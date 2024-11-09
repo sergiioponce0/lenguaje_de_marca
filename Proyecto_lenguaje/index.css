@@ -70,14 +70,16 @@ html, body {
 body {
   display: grid;
   place-items: center;
-  background-image: url(/Proyecto_lenguaje/fotos/Diseño\ sin\ título.png);
+  background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
   background-color: rgba(0, 0, 0, 0.3);
   background-image: filter brightness(80%);
+  background-attachment: fixed;
   
 }
 .fondo{
   filter: brightness(0.5);
   -webkit-filter: brightness(0.5);
+  
 }
 
 .page-content {
@@ -310,3 +312,14 @@ body {
   color: white;
   font-size: 0.9em;
 }
+
+.valoraciones {
+color: white;
+font-family: var(--font-sans);
+margin-top: 2cm;
+}
+
+
+
+
+

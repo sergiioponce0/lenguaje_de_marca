@@ -8,7 +8,7 @@
     z-index: 10;
     top: 0;
     left: 0;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;  }
+    box-shadow: rgba(0, 0, 0, 0.486) 0px 25px 50px -30px;  }
 .container {
     width: 90%;
     max-width: 1200px;
@@ -164,7 +164,7 @@
     transform: rotateX(360deg) scale(1.2);
   }
   .contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs svg path, .contenedorCards .card.esFav .wrapper .infoProd .actions .action.aFavs svg circle {
-    fill: #fff;
+    fill: #ffffff;
     transition-delay: 0.2s;
   }
   .contenedorCards .card.enCarrito .wrapper .infoProd .actions .action.alCarrito .inCart {
