@@ -39,6 +39,7 @@
   padding: 10px 15px;
   line-height: normal;
   font-size: 14px;
+  font-family: var(--font-sans);
   transition: all 500ms ease;
   border-bottom: 4px solid transparent;
   text-align: right;

@@ -290,7 +290,7 @@ body {
   .card:focus-within:before, .card:focus-within:after,
 .card:focus-within .content,
 .card:focus-within .content > *:not(.title) {
-    transition-duration: 0s;
+    transition-duration: 0.7s;
   }
 }
 
@@ -310,7 +310,7 @@ body {
 .button1:hover {
   background: #242020;
   color: white;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 .valoraciones {
@@ -322,4 +322,92 @@ margin-top: 2cm;
 
 
 
+.cardval {
+  --font-color: #323232;
+  --bg-color: #e0e0e0;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  font-family: var(--font-sans);
+  background: var(--bg-color);
+  box-shadow: -9px 9px 18px #5a5a5a,              1px -1px 18px #ffffff;
+  display: flex;
+  margin-top: 0.5cm;
+  flex-direction: column;
+  transition: .3Ss;
+  position: relative;
+  -webkit-transition: .3Ss;
+  -moz-transition: .3Ss;
+  -ms-transition: .3Ss;
+  -o-transition: .3Ss;
+}
 
+.cardval:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 0px 4px 1px #5a5a5a;
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
+}
+
+.cardval__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  background-color: #3f3a3a;
+}
+
+.cardval__descr-wrapper {
+  padding: 15px;
+  display: grid;
+}
+
+.cardval__title {
+  color: var(--font-color);
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.cardval__descr {
+  color: var(--font-color);
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+  transform: translateY(25%);
+  fill: var(--font-color);
+}
+
+.cardval__links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.cardval__links .link {
+  color: var(--font-color);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.cardval__links .link:hover {
+  text-decoration: underline;
+}
+
+
+
+.cartas_valoraciones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 2rem;
+}
