@@ -330,16 +330,16 @@ margin-top: 2cm;
   border-radius: 20px;
   font-family: var(--font-sans);
   background: var(--bg-color);
-  box-shadow: -9px 9px 18px #5a5a5a,              1px -1px 18px #ffffff;
+  box-shadow: -3px 1px 8px #5a5a5a,              0px -1px 2px #ffffff;
   display: flex;
   margin-top: 0.5cm;
   flex-direction: column;
-  transition: .3Ss;
+  transition: .3s;
   position: relative;
-  -webkit-transition: .3Ss;
-  -moz-transition: .3Ss;
-  -ms-transition: .3Ss;
-  -o-transition: .3Ss;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
 }
 
 .cardval:hover {
@@ -353,7 +353,7 @@ margin-top: 2cm;
 
 .cardval__img {
   width: 100%;
-  height: 100%;
+  height: 37%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   background-color: #3f3a3a;
@@ -366,7 +366,8 @@ margin-top: 2cm;
 
 .cardval__title {
   color: var(--font-color);
-  text-align: center;
+  font-family: var(--font-sans);
+  text-align: left;
   margin-bottom: 15px;
   font-weight: 900;
   font-size: 16px;
@@ -374,6 +375,7 @@ margin-top: 2cm;
 
 .cardval__descr {
   color: var(--font-color);
+  padding-top: -35px;
 }
 
 .svg {
@@ -410,4 +412,17 @@ margin-top: 2cm;
   flex-wrap: wrap;
   width: fit-content;
   gap: 2rem;
+}
+
+.fotosval {
+  width: 250px;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 45px;
+  
+}
+.emoji {
+  text-align: center;
+  margin-top: -10px;
+
 }
