@@ -49,7 +49,7 @@
   border-bottom: 4px solid #2081a7;
 }
 
-button {
+.botonmenu {
   width: 100px;
   height: 40px;
   border: 3px solid #242020;
@@ -61,7 +61,7 @@ button {
   font-weight: 400;
 }
 
-button:hover {
+.botonmenu:hover {
   background: #242020;
   color: white;
   font-size: 0.9em;

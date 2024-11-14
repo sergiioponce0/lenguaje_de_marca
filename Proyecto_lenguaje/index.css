@@ -74,6 +74,8 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   background-image: filter brightness(80%);
   background-attachment: fixed;
+  margin-top: 0cm ;
+  padding: 0;
   
 }
 .fondo{
@@ -89,6 +91,7 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: var(--font-sans);
+  margin-top: -2cm;
 }
 @media (min-width: 600px) {
   .page-content {
@@ -425,4 +428,10 @@ margin-top: 2cm;
   text-align: center;
   margin-top: -10px;
 
+}
+
+.preferencia {
+  color: white;
+font-family: var(--font-sans);
+margin-top: 3cm;
 }
