@@ -18,6 +18,9 @@
   float: left;
   line-height: 75px;
 }
+body {
+  background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
+}
 
 .logo h1 {
 color: #fff;

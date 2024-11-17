@@ -13,6 +13,10 @@
     line-height: 75px;
 }
 
+ body {
+    background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
+  }
+  
 .logo h1 {
   color: #fff;
   font-weight: 400;
@@ -75,7 +79,7 @@
 }
 
 footer {
-  background-color: #333;
+  background-color: #474747;
   color: #fff;
   padding: 20px 0;
   margin-top: 2cm;
@@ -87,7 +91,7 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  width: 100%; 
+  width: 98%; 
 }
 
 .footer-container div {
@@ -136,7 +140,7 @@ footer {
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
-  background-color: #222;
+  background-color: #353535;
   font-size: 12px;
 }
 
