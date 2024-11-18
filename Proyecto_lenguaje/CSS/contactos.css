@@ -84,9 +84,10 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
-  margin-top: 2cm;
+  margin-top: -4cm;
   font-family: Arial, sans-serif;
-  width: 100%; 
+  width: 100.4%; 
+  
 }
 
 .footer-container {
@@ -236,6 +237,7 @@ footer {
   align-items: center; 
   height: 116vh;
   width: 100%;
+  margin-top: 3cm;
 }
 
 .card {
@@ -370,10 +372,19 @@ footer {
   margin-left: 6cm;
 }
 .localizacion {
-  
-
- 
+  margin-left: -2cm;
+  margin-top: -1cm;
   padding: 25px 25px;
-  gap: 200px;
-  
+  gap: 200px; 
+}
+
+.localizarnos{
+  margin-top: 0.5cm;
+}
+
+.ubi:hover {
+  background-color: #b13030;
+  transition-duration: 0.3s;
+  transform: scale(1.5);
+  border-radius: 15px;
 }

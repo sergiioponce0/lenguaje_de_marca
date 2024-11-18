@@ -29,13 +29,17 @@
         <div class="colorProd"></div>
         <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/seat.webp)" alt="Seat" id="car-image"></div>
         <div class="infoProd">
+          <button id="change-image-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+        </button>
           <p class="nombreProd">Seat Ibiza</p>
           <p class="extraInfo">Tipo de Coche: Gasolina</p>
           <p class="extraInfo">Motor: 1.0 TSI, 3 cilindros, inyección directa turbo</p>
           <p class="extraInfo">Velocidad máxima: 195 km/h</p>
           <p class="extraInfo">Aceleración 0-100 km/h: 10,2 segundo</p>
           <p class="extraInfo">Consumo WLTP: 5 l/100 km</p>
-          <button id="change-image-btn">Cambiar imagen</button>
           <div class="actions">
             <div class="preciosGrupo">
               <p class="precio precioOferta">16.000 €</p>
@@ -44,11 +48,11 @@
             <div class="button">
               <div class="button-wrapper">
                 <div class="text">Comprar</div>
-                  <span class="icon">
+                <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
-                  </span>
+                  </button>
                 </div>
             </div>
           </div>
@@ -58,8 +62,13 @@
     <div class="card">
       <div class="wrapper">
         <div class="colorProd" style="background-color: #3f3a3a;"></div>
-        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/audi.webp);"></div>
+        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/audi.webp)" alt="Audi" id="car-image1"></div>
         <div class="infoProd">
+          <button id="change-image-btn1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+        </button>
           <p class="nombreProd">Audi A1 Sportback</p>
           <p class="extraInfo">Tipo de Coche: Gasolina</p>
           <p class="extraInfo">Motor: 1.0 TFSI de tres cilindros 95-110 CV</p>
@@ -72,12 +81,12 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" >Comprar</div>
+                <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
-                  </span>
+                  </button>
               </div>
             </div>
           </div>
@@ -87,8 +96,13 @@
     <div class="card">
       <div class="wrapper">
         <div class="colorProd" style="background-color: #3f3a3a;"></div>
-        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/mercedes.webp);"></div>
+        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/mercedes.webp)" alt="Mercedes" id="car-image2"></div>
         <div class="infoProd">
+          <button id="change-image-btn2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+        </button>
           <p class="nombreProd">Mercedes CLA</p>
           <p class="extraInfo">Tipo de Coche: Gasolina</p>
           <p class="extraInfo">Motor: 2.0 TFSI de cuatro cilindros 218 CV</p>
@@ -102,8 +116,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -117,8 +131,13 @@
     <div class="card">
       <div class="wrapper">
         <div class="colorProd" style="background-color: #3f3a3a;"></div>
-        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/bmw.webp);"></div>
+        <div class="imgProd" style="background-image: url(/Proyecto_lenguaje/fotos/bmw.webp)" alt="BMW" id="car-image3"></div>
         <div class="infoProd">
+          <button id="change-image-btn3">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+          </svg>
+        </button>
           <p class="nombreProd">BMW Serie 1</p>
           <p class="extraInfo">Tipo de Coche: Gasolina</p>
           <p class="extraInfo">Motor: 2.0 TFSI de cuatro cilindros 190 CV</p>
@@ -132,8 +151,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -165,8 +184,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -194,8 +213,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -224,8 +243,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -255,8 +274,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -288,8 +307,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -317,8 +336,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -347,8 +366,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -378,8 +397,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -391,7 +410,7 @@
       </div>
     </div>
   </div>
-  <div class="textopremium"><h2>Premium</h2></div>
+  <div class="texopremium"><h2>Premium</h2></div>
   <div class="contenedorCards">
     <div class="card">
       <div class="wrapper">
@@ -412,8 +431,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -441,8 +460,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -471,8 +490,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -501,8 +520,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -534,8 +553,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -563,8 +582,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -593,8 +612,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -624,8 +643,8 @@
             </div>
             <div class="button">
               <div class="button-wrapper">
-                <div class="text">Comprar</div>
-                  <span class="icon">
+                <div class="text" ">Comprar</div>
+                  <span class=icon onclick="compra()">
                     <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
               </svg>
@@ -646,32 +665,106 @@
       const carImageElement = document.getElementById("car-image");
       const changeImageButton = document.getElementById("change-image-btn");
 
-      // Lista de URLs de las imágenes
+      
       const imageList = [
         "/Proyecto_lenguaje/fotos/seat.webp",
-        "/Proyecto_lenguaje/fotos/tesla.webp",
-        "/Proyecto_lenguaje/fotos/opel.webp"
+        "/Proyecto_lenguaje/fotos/seat1.webp",
+        "/Proyecto_lenguaje/fotos/seat2.webp"
       ];
 
-      // Índice inicial
+      
       let currentIndex = 0;
 
-      // Función para cambiar la imagen
+      
       function changeImage() {
         currentIndex = (currentIndex + 1) % imageList.length;
         carImageElement.style.backgroundImage = `url(${imageList[currentIndex]})`;
       }
 
-      // Event Listener para el botón de cambio de imagen
+      
       changeImageButton.addEventListener("click", changeImage);
     });
 
-    function iniciosesion() {
-      location ='../HTML/registro.html'
+    document.addEventListener("DOMContentLoaded", function () {
+      const carImageElement = document.getElementById("car-image1");
+      const changeImageButton = document.getElementById("change-image-btn1");
+
       
-    }
+      const imageList = [
+        "/Proyecto_lenguaje/fotos/audi.webp",
+        "/Proyecto_lenguaje/fotos/audi1.webp",
+        "/Proyecto_lenguaje/fotos/audi2.webp"
+      ];
+
+      
+      let currentIndex = 0;
+
+      
+      function changeImage() {
+        currentIndex = (currentIndex + 1) % imageList.length;
+        carImageElement.style.backgroundImage = `url(${imageList[currentIndex]})`;
+      }
+
+      
+      changeImageButton.addEventListener("click", changeImage);
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const carImageElement = document.getElementById("car-image2");
+      const changeImageButton = document.getElementById("change-image-btn2");
+
+      
+      const imageList = [
+        "/Proyecto_lenguaje/fotos/mercedes.webp",
+        "/Proyecto_lenguaje/fotos/mercedes1.webp",
+        "/Proyecto_lenguaje/fotos/mercedes2.webp"
+      ];
+
+      
+      let currentIndex = 0;
+
+      
+      function changeImage() {
+        currentIndex = (currentIndex + 1) % imageList.length;
+        carImageElement.style.backgroundImage = `url(${imageList[currentIndex]})`;
+      }
+
+      
+      changeImageButton.addEventListener("click", changeImage);
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const carImageElement = document.getElementById("car-image3");
+      const changeImageButton = document.getElementById("change-image-btn3");
+
+      
+      const imageList = [
+        "/Proyecto_lenguaje/fotos/bmw.webp",
+        "/Proyecto_lenguaje/fotos/bmw1.webp",
+        "/Proyecto_lenguaje/fotos/bmw2.webp"
+      ];
+
+      
+      let currentIndex = 0;
+
+      
+      function changeImage() {
+        currentIndex = (currentIndex + 1) % imageList.length;
+        carImageElement.style.backgroundImage = `url(${imageList[currentIndex]})`;
+      }
+
+      
+      changeImageButton.addEventListener("click", changeImage);
+    });
+
     function registro() {
       location = '../HTML/registro.html'
+    }
+    function iniciosesion() {
+      location = '../HTML/registro.html'
+    }
+    function compra() {
+      location = '../HTML/about.html'
     }
 
   </script>
