@@ -641,6 +641,31 @@
 
   <script>
 
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const carImageElement = document.getElementById("car-image");
+      const changeImageButton = document.getElementById("change-image-btn");
+
+      // Lista de URLs de las imágenes
+      const imageList = [
+        "/Proyecto_lenguaje/fotos/seat.webp",
+        "/Proyecto_lenguaje/fotos/tesla.webp",
+        "/Proyecto_lenguaje/fotos/opel.webp"
+      ];
+
+      // Índice inicial
+      let currentIndex = 0;
+
+      // Función para cambiar la imagen
+      function changeImage() {
+        currentIndex = (currentIndex + 1) % imageList.length;
+        carImageElement.style.backgroundImage = `url(${imageList[currentIndex]})`;
+      }
+
+      // Event Listener para el botón de cambio de imagen
+      changeImageButton.addEventListener("click", changeImage);
+    });
+
     function iniciosesion() {
       location ='../HTML/registro.html'
       
