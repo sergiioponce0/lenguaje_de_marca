@@ -6,7 +6,8 @@
   z-index: 10;
   top: 0;
   left: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;  }
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
 
 .logo {
   float: left;
@@ -14,49 +15,49 @@
 }
 
 .logo h1 {
-color: #fff;
-font-weight: 400;
-font-size: 24px;
-cursor: default;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: default;
 }
 
 .menu {
-float: right;
-line-height: 75px;
-font-family: var(--font-sans);
+  float: right;
+  line-height: 75px;
+  font-family: var(--font-sans);
 }
 
 .menu a {
-color: #fff;
-text-decoration: none;
-display: inline-block;
-padding: 10px 15px;
-line-height: normal;
-font-size: 14px;
-font-family: var(--font-sans);
-transition: all 500ms ease;
-border-bottom: 4px solid transparent;
-text-align: right;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: normal;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  transition: all 500ms ease;
+  border-bottom: 4px solid transparent;
+  text-align: right;
 }
 
 .menu a:hover {
-color: #2081a7;
-border-bottom: 4px solid #2081a7;
+  color: #2081a7;
+  border-bottom: 4px solid #2081a7;
 }
 
 titulo {
-  box-shadow: 0 0 5px
-  color white
+  box-shadow: 0 0 5px;
+  color: white;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
   --font-sans: "Rubik", sans-serif;
   --font-serif: "Cardo", serif;
 }
-
 
 * {
   box-sizing: border-box;
@@ -71,18 +72,17 @@ html, body {
 body {
   display: grid;
   place-items: center;
-  background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
+  background-image: url(../fotos/fondo_definitivo.jpg);
   background-color: rgba(0, 0, 0, 0.3);
   background-image: filter brightness(80%);
   background-attachment: fixed;
-  margin-top: 0cm ;
+  margin-top: 0cm;
   padding: 0;
-  
 }
-.fondo{
+
+.fondo {
   filter: brightness(0.5);
   -webkit-filter: brightness(0.5);
-  
 }
 
 .page-content {
@@ -94,11 +94,13 @@ body {
   font-family: var(--font-sans);
   margin-top: -2cm;
 }
+
 @media (min-width: 600px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (min-width: 800px) {
   .page-content {
     grid-template-columns: repeat(5, 1fr);
@@ -120,11 +122,13 @@ body {
   background-color: whitesmoke;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
+
 @media (min-width: 600px) {
   .card {
     height: 350px;
   }
 }
+
 .card:before {
   content: "";
   position: absolute;
@@ -137,6 +141,7 @@ body {
   transition: transform calc(var(--d) * 1.5) var(--e);
   pointer-events: none;
 }
+
 .card:after {
   content: "";
   display: block;
@@ -150,55 +155,63 @@ body {
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
+
 .card:nth-child(1):before {
-  background-image: url(/Proyecto_lenguaje/fotos/madrid-2809947_1280.jpg);
+  background-image: url(../fotos/madrid-2809947_1280.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
-  
+
 .card:nth-child(2):before {
-  background-image: url(/Proyecto_lenguaje/fotos/KI6YREIHSARWVGEKG37ZARHCFQ.jpg);
+  background-image: url(../fotos/KI6YREIHSARWVGEKG37ZARHCFQ.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(3):before {
-  background-image: url(/Proyecto_lenguaje/fotos/puente.jpg);
+  background-image: url(../fotos/puente.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(4):before {
-  background-image: url(/Proyecto_lenguaje/fotos/valencia.jpg);
+  background-image: url(../fotos/valencia.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(5):before {
-  background-image: url(/Proyecto_lenguaje/fotos/Murcia-vertical.jpg);
+  background-image: url(../fotos/Murcia-vertical.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
 
 .card:nth-child(6):before {
-  background-image: url(/Proyecto_lenguaje/fotos/malaga.jpg);
+  background-image: url(../fotos/malaga.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(7):before {
-  background-image: url(/Proyecto_lenguaje/fotos/bilbao.jpg);
+  background-image: url(../fotos/bilbao.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(8):before {
-  background-image: url(/Proyecto_lenguaje/fotos/valladolild.jpg);
+  background-image: url(../fotos/valladolild.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(9):before {
-  background-image: url(/Proyecto_lenguaje/fotos/laspalmasprueba.jpg);
+  background-image: url(../fotos/laspalmasprueba.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(10):before {
-  background-image: url(/Proyecto_lenguaje/fotos/Zaragoza.jpg);
+  background-image: url(../fotos/Zaragoza.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
@@ -217,6 +230,7 @@ body {
   -ms-transition: transform var(--d) var(--e);
   -o-transition: transform var(--d) var(--e);
 }
+
 .content > * + * {
   margin-top: 1rem;
 }
@@ -246,9 +260,11 @@ body {
   background-color: black;
   border: none;
 }
+
 .btn:hover {
   background-color: #0d0d0d;
 }
+
 .btn:focus {
   outline: 1px dashed yellow;
   outline-offset: 3px;
@@ -262,6 +278,7 @@ body {
   .content {
     transform: translateY(calc(100% - 4.5rem));
   }
+
   .content > *:not(.title) {
     opacity: 0;
     transform: translateY(1rem);
@@ -269,31 +286,36 @@ body {
   }
 
   .card:hover,
-.card:focus-within {
+  .card:focus-within {
     align-items: center;
   }
+
   .card:hover:before,
-.card:focus-within:before {
+  .card:focus-within:before {
     transform: translateY(-4%);
   }
+
   .card:hover:after,
-.card:focus-within:after {
+  .card:focus-within:after {
     transform: translateY(-50%);
   }
+
   .card:hover .content,
-.card:focus-within .content {
+  .card:focus-within .content {
     transform: translateY(0);
   }
+
   .card:hover .content > *:not(.title),
-.card:focus-within .content > *:not(.title) {
+  .card:focus-within .content > *:not(.title) {
     opacity: 1;
     transform: translateY(0);
     transition-delay: calc(var(--d) / 8);
   }
 
-  .card:focus-within:before, .card:focus-within:after,
-.card:focus-within .content,
-.card:focus-within .content > *:not(.title) {
+  .card:focus-within:before,
+  .card:focus-within:after,
+  .card:focus-within .content,
+  .card:focus-within .content > *:not(.title) {
     transition-duration: 0.7s;
   }
 }
@@ -318,13 +340,10 @@ body {
 }
 
 .valoraciones {
-color: white;
-font-family: var(--font-sans);
-margin-top: 2cm;
+  color: white;
+  font-family: var(--font-sans);
+  margin-top: 2cm;
 }
-
-
-
 
 .cardval {
   --font-color: #323232;
@@ -334,7 +353,7 @@ margin-top: 2cm;
   border-radius: 20px;
   font-family: var(--font-sans);
   background: var(--bg-color);
-  box-shadow: -3px 1px 8px #5a5a5a,              0px -1px 2px #ffffff;
+  box-shadow: -3px 1px 8px #5a5a5a, 0px -1px 2px #ffffff;
   display: flex;
   margin-top: 0.5cm;
   flex-direction: column;
@@ -407,9 +426,7 @@ margin-top: 2cm;
   text-decoration: underline;
 }
 
-
-
-.cartas_valoraciones{
+.cartas_valoraciones {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -423,20 +440,18 @@ margin-top: 2cm;
   height: auto;
   margin-top: 5px;
   margin-left: 45px;
-  
 }
+
 .emoji {
   text-align: center;
   margin-top: -10px;
-
 }
 
 .preferencia {
   color: white;
-font-family: var(--font-sans);
-margin-top: 3cm;
+  font-family: var(--font-sans);
+  margin-top: 3cm;
 }
-
 
 footer {
   background-color: #333;
@@ -444,14 +459,14 @@ footer {
   padding: 20px 0;
   margin-top: 2cm;
   font-family: Arial, sans-serif;
-  width: 100%; 
+  width: 100%;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  width: 100%; 
+  width: 100%;
 }
 
 .footer-container div {
@@ -504,19 +519,15 @@ footer {
   font-size: 12px;
 }
 
-
 .cardsocial {
   width: fit-content;
   height: fit-content;
-
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 25px 25px;
   gap: 20px;
-  
 }
-
 
 .socialContainer {
   width: 52px;
@@ -548,7 +559,6 @@ footer {
   transition-duration: 0.3s;
   transform: scale(1.5);
   border-radius: 15px;
-  
 }
 
 .containerFour:hover {
@@ -586,4 +596,3 @@ footer {
     opacity: 1;
   }
 }
-

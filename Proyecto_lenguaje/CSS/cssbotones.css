@@ -91,27 +91,27 @@
   
   @font-face {
     font-family: 'fuente';
-    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Black-Oblique-Trial-BF651b7fc5608e6.otf') format('truetype');
+    src: url('../fuentes/GT-Walsheim-Black-Oblique-Trial-BF651b7fc5608e6.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
   @font-face {
     font-family: 'exp1';
-    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Bold-Oblique-Trial-BF651b7fc5f06a0.otf') format('truetype');
+    src: url('../fuentes/GT-Walsheim-Bold-Oblique-Trial-BF651b7fc5f06a0.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
 
   @font-face {
     font-family: 'exp2';
-    src: url('/Proyecto_lenguaje/fuentes/GT-Walsheim-Condensed-Ultra-Light-Oblique-Trial-BF651b7fc714a97.otf') format('truetype');
+    src: url('../fuentes/GT-Walsheim-Condensed-Ultra-Light-Oblique-Trial-BF651b7fc714a97.otf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
   @font-face {
     font-family: 'Premium';
-    src: url('/Proyecto_lenguaje/fuentes/fuente_eleganteklk.ttf') format('truetype');
+    src: url('../fuentes/fuente_eleganteklk.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
   }

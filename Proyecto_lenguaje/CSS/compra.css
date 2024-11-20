@@ -1,5 +1,5 @@
 body {
-  background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
+  background-image: url(../fotos/fondo_definitivo.jpg);
   background-attachment: fixed;
 }
 
@@ -15,7 +15,7 @@ body {
     0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 26px;
   max-width: 450px;
-  margin-top: 2cm;
+  margin-top: 3cm;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 19.25cm;
 }
@@ -166,7 +166,7 @@ h1 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  margin-top: 3cm;
+  margin-top: 2cm;
 }
 
 .circulo {

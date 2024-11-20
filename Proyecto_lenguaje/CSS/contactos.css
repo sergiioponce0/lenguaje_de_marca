@@ -19,7 +19,7 @@
   line-height: 75px;
 }
 body {
-  background-image: url(/Proyecto_lenguaje/fotos/fondo_definitivo.jpg);
+  background-image: url(../fotos/fondo_definitivo.jpg);
   background-attachment: fixed;
 }
 
