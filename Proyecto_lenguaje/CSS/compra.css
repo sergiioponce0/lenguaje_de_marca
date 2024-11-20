@@ -158,10 +158,6 @@ body {
   margin: 0;
 }
 
-.input_field[type="number"] {
-  -moz-appearance: textfield;
-}
-
 h1 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
