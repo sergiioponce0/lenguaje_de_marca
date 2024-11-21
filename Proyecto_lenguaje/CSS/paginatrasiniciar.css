@@ -640,3 +640,32 @@ footer {
   }
 }
 
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+/* Aumentar la altura del header en dispositivos con un ancho máximo de 600px */
+@media (max-width: 600px) {
+  .header {
+    width: 800px;
+    height: 150px; /* Cambia la altura a 100px o al valor que desees */
+  }
+  .menu {
+    margin-top: -1cm;
+    margin-right: 1cm;
+  }
+  body {
+    background-image: url(../fotos/fondo_definitivo.jpg);
+    background-attachment: fixed;
+  }
+}
+
+/* Ajuste del diseño en pantallas aún más grandes (más de 800px) */
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

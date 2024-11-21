@@ -286,4 +286,111 @@
     color: rgb(37, 37, 37);
     cursor: pointer;
   } 
+
+  @media (max-width: 1024px) {
+    .header {
+      padding: 0 10px;
+      height: 65px;
+    }
+  
+    .logo h1 {
+      font-size: 20px;
+    }
+  
+    .menu a {
+      font-size: 12px;
+    }
+  
+    .flip-card__inner {
+      width: 250px;
+      height: 300px;
+    }
+  
+    .flip-card__input {
+      width: 220px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .logo h1 {
+      font-size: 18px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .menu a {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .flip-card__inner {
+      width: 220px;
+      height: 270px;
+    }
+  
+    .flip-card__input {
+      width: 200px;
+    }
+  
+    .button1 {
+      width: 80px;
+      height: 35px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      height: auto;
+      padding: 10px;
+      
+    }
+  
+    .logo h1 {
+      font-size: 16px;
+    }
+  
+    .menu a {
+      font-size: 10px;
+      padding: 8px 10px;
+    }
+
+    .menu  {
+      font-size: 10px;
+      padding: 8px 10px;
+      margin-top: -1.5cm;
+    }
+
+    img {
+      width: 350px;
+      height: 100px;
+    }
+  
+    .flip-card__inner {
+      width: 200px;
+      height: 250px;
+    }
+  
+    .flip-card__input {
+      width: 180px;
+    }
+  
+    .button1 {
+      width: 70px;
+      height: 30px;
+    }
+  }
+  
   

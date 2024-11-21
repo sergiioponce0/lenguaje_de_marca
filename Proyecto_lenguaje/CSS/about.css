@@ -403,3 +403,82 @@ footer {
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+
+
+
+  .header {
+    height: 100px;
+    margin-left: -0.60cm;
+    
+  }
+
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  .menu a{
+    font-size: 10px;
+    padding: 8px 12px;
+    
+  }
+
+  .menu {
+    margin-top: -2.5cm;
+  }
+
+  .button1 {
+    width: 80px;
+    height: 30px;
+    font-size: 0.6em;
+  }
+
+  footer {
+    font-size: 12px;
+    margin-top: 1cm;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container div {
+    margin-bottom: 15px;
+  }
+
+  .card{
+    width: 18em;
+    height: 18em;
+    margin-top: 1cm;
+  }
+
+  .card1 {
+    font-size: xx-small;
+    height: 250px;
+    width: 400px;
+  }
+  .cardsocial {
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .foto{
+    height: 100px;
+    width: 0px;
+  }
+
+  img {
+    width: 300px;
+    height: 100px;
+  }
+  .empresa{
+    margin-bottom: -16cm;
+  }
+}

@@ -1,3 +1,4 @@
+
 body {
   background-image: url(../fotos/fondo_definitivo.jpg);
   background-attachment: fixed;
@@ -167,4 +168,46 @@ h1 {
 
 .circulo {
   margin-top: -8cm;
+}
+
+@media (max-width: 768px) {
+  .modal {
+    margin: 2cm auto;
+    padding: 15px;
+  }
+
+  .payment--options {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .split {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 1cm;
+  }
+
+  .modal {
+    margin: 1cm auto;
+    width: 90%;
+  }
+
+  .payment--options {
+    grid-template-columns: 1fr;
+  }
+
+  .separator > p {
+    font-size: 10px;
+  }
+
+  .input_field {
+    height: 36px;
+    font-size: 14px;
+  }
 }

@@ -18,7 +18,7 @@ body {
     max-height: 400px;
     margin-top: 3cm;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 19.25cm;
+    margin-left: 0.75cm;
   }
   
   .form {
@@ -36,6 +36,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-top: 2cm;
+    margin-left: 1cm;
   }
   
   pre {
@@ -52,7 +53,7 @@ body {
   margin: 0 ; 
   position: absolute;
   top: 8.8cm; 
-  left: 50%;
+  left: 50.5%;
   transform: translateX(-50%);
   }
 
@@ -97,5 +98,13 @@ margin-top: 0.35cm;
   width: 100px;
 margin-left: 1.15cm;
 }
+.orden {
+  display: flex;
+  justify-content: center
+}
 
-  
+@media (max-height: 600px) {
+  .h1 {
+    margin-left: 5cm;
+  }
+}
