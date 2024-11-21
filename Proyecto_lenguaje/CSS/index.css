@@ -1,3 +1,5 @@
+
+/* Cabecera fija en la parte superior de la página */
 .header {
   width: 100%;
   height: 75px;
@@ -9,11 +11,13 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
+/* Contenedor para el logo */
 .logo {
   float: left;
   line-height: 75px;
 }
 
+/* Estilo del título dentro del logo */
 .logo h1 {
   color: #fff;
   font-weight: 400;
@@ -21,12 +25,14 @@
   cursor: default;
 }
 
+/* Contenedor para el menú de navegación */
 .menu {
   float: right;
   line-height: 75px;
   font-family: var(--font-sans);
 }
 
+/* Estilo de los enlaces dentro del menú */
 .menu a {
   color: #fff;
   text-decoration: none;
@@ -40,18 +46,22 @@
   text-align: right;
 }
 
+/* Estilo cuando se pasa el ratón sobre los enlaces del menú */
 .menu a:hover {
   color: #2081a7;
   border-bottom: 4px solid #2081a7;
 }
 
+/* Estilo para los elementos con clase "titulo" */
 titulo {
   box-shadow: 0 0 5px;
   color: white;
 }
 
+/* Importación de fuentes desde Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
 
+/* Variables CSS personalizadas para tiempos y fuentes */
 :root {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
@@ -59,16 +69,19 @@ titulo {
   --font-serif: "Cardo", serif;
 }
 
+/* Establece el box-sizing en todo el documento */
 * {
   box-sizing: border-box;
 }
 
+/* Estilos básicos para los elementos html y body */
 html, body {
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
+/* Estilo del body con fondo y centrado de los elementos */
 body {
   display: grid;
   place-items: center;
@@ -80,11 +93,13 @@ body {
   padding: 0;
 }
 
+/* Estilo del fondo con filtro de brillo */
 .fondo {
   filter: brightness(0.5);
   -webkit-filter: brightness(0.5);
 }
 
+/* Contenedor principal de la página con un diseño de grid */
 .page-content {
   display: grid;
   grid-gap: 1rem;
@@ -95,18 +110,38 @@ body {
   margin-top: -2cm;
 }
 
+/* Ajuste del diseño en pantallas grandes (más de 600px) */
 @media (min-width: 600px) {
   .page-content {
     grid-template-columns: repeat(2, 1fr);
   }
+  
 }
 
+/* Aumentar la altura del header en dispositivos con un ancho máximo de 600px */
+@media (max-width: 600px) {
+  .header {
+    width: 800px;
+    height: 150px; /* Cambia la altura a 100px o al valor que desees */
+  }
+  .menu {
+    margin-top: -1cm;
+    margin-right: 1cm;
+  }
+  body {
+    background-image: url(../fotos/fondo_definitivo.jpg);
+    background-attachment: fixed;
+  }
+}
+
+/* Ajuste del diseño en pantallas aún más grandes (más de 800px) */
 @media (min-width: 800px) {
   .page-content {
     grid-template-columns: repeat(5, 1fr);
   }
 }
 
+/* Estilo para las tarjetas (cards) */
 .card {
   position: relative;
   display: flex;
@@ -123,12 +158,14 @@ body {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* Ajuste de la altura de las tarjetas en pantallas más grandes */
 @media (min-width: 600px) {
   .card {
     height: 350px;
   }
 }
 
+/* Estilo para el pseudo-elemento antes de cada tarjeta */
 .card:before {
   content: "";
   position: absolute;
@@ -142,6 +179,7 @@ body {
   pointer-events: none;
 }
 
+/* Estilo para el pseudo-elemento después de cada tarjeta */
 .card:after {
   content: "";
   display: block;
@@ -156,6 +194,7 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 
+/* Estilos específicos para las imágenes de fondo de las tarjetas */
 .card:nth-child(1):before {
   background-image: url(../fotos/madrid-2809947_1280.jpg);
   filter: brightness(0.8);
@@ -209,6 +248,11 @@ body {
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+.card:nth-child(9):before {
+  background-image: url(../fotos/laspalmasprueba.jpg);
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
 
 .card:nth-child(10):before {
   background-image: url(../fotos/Zaragoza.jpg);
@@ -216,6 +260,7 @@ body {
   -webkit-filter: brightness(0.8);
 }
 
+/* Contenedor principal de la página */
 .content {
   position: relative;
   display: flex;
@@ -231,16 +276,19 @@ body {
   -o-transition: transform var(--d) var(--e);
 }
 
+/* Espaciado entre los elementos dentro de .content */
 .content > * + * {
   margin-top: 1rem;
 }
 
+/* Estilo para el título de la sección */
 .title {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.2;
 }
 
+/* Estilo para el texto de tipo párrafo o copia */
 .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
@@ -248,6 +296,7 @@ body {
   line-height: 1.35;
 }
 
+/* Estilo para los botones */
 .btn {
   cursor: pointer;
   margin-top: 1.5rem;
@@ -261,15 +310,18 @@ body {
   border: none;
 }
 
+/* Efecto hover para el botón */
 .btn:hover {
   background-color: #0d0d0d;
 }
 
+/* Estilo para el botón cuando está enfocado */
 .btn:focus {
   outline: 1px dashed yellow;
   outline-offset: 3px;
 }
 
+/* Estilos para el diseño en pantallas con hover y mayor a 600px */
 @media (hover: hover) and (min-width: 600px) {
   .card:after {
     transform: translateY(0);
@@ -279,12 +331,14 @@ body {
     transform: translateY(calc(100% - 4.5rem));
   }
 
+  /* Estilo para los elementos dentro de .content excepto el título */
   .content > *:not(.title) {
     opacity: 0;
     transform: translateY(1rem);
     transition: transform var(--d) var(--e), opacity var(--d) var(--e);
   }
 
+  /* Efecto hover/focus para las tarjetas */
   .card:hover,
   .card:focus-within {
     align-items: center;
@@ -312,6 +366,7 @@ body {
     transition-delay: calc(var(--d) / 8);
   }
 
+  /* Transición específica para el foco en la tarjeta */
   .card:focus-within:before,
   .card:focus-within:after,
   .card:focus-within .content,
@@ -320,6 +375,7 @@ body {
   }
 }
 
+/* Estilo para un botón adicional con clase .button1 */
 .button1 {
   width: 100px;
   height: 40px;
@@ -333,18 +389,21 @@ body {
   font-weight: 400;
 }
 
+/* Efecto hover para el botón .button1 */
 .button1:hover {
   background: #242020;
   color: white;
   font-size: 0.85em;
 }
 
+/* Estilo de las valoraciones */
 .valoraciones {
   color: white;
   font-family: var(--font-sans);
   margin-top: 2cm;
 }
 
+/* Estilo para las tarjetas de valoración */
 .cardval {
   --font-color: #323232;
   --bg-color: #e0e0e0;
@@ -365,6 +424,7 @@ body {
   -o-transition: .3s;
 }
 
+/* Efecto hover para la tarjeta de valoración */
 .cardval:hover {
   transform: scale(1.07);
   box-shadow: 0px 0px 4px 1px #5a5a5a;
@@ -374,6 +434,7 @@ body {
   -o-transform: scale(1.07);
 }
 
+/* Estilo para la imagen dentro de la tarjeta de valoración */
 .cardval__img {
   width: 100%;
   height: 37%;
@@ -382,11 +443,13 @@ body {
   background-color: #3f3a3a;
 }
 
+/* Contenedor para la descripción dentro de la tarjeta de valoración */
 .cardval__descr-wrapper {
   padding: 15px;
   display: grid;
 }
 
+/* Título dentro de la tarjeta de valoración */
 .cardval__title {
   color: var(--font-color);
   font-family: var(--font-sans);
@@ -396,11 +459,13 @@ body {
   font-size: 16px;
 }
 
+/* Descripción dentro de la tarjeta de valoración */
 .cardval__descr {
   color: var(--font-color);
   padding-top: -35px;
 }
 
+/* Estilo para los iconos SVG dentro de las tarjetas */
 .svg {
   width: 25px;
   height: 25px;
@@ -408,6 +473,7 @@ body {
   fill: var(--font-color);
 }
 
+/* Contenedor para los enlaces dentro de la tarjeta de valoración */
 .cardval__links {
   margin-top: 10px;
   display: flex;
@@ -415,6 +481,7 @@ body {
   align-self: flex-end;
 }
 
+/* Estilo de los enlaces dentro de .cardval__links */
 .cardval__links .link {
   color: var(--font-color);
   font-weight: 600;
@@ -422,10 +489,12 @@ body {
   text-decoration: none;
 }
 
+/* Efecto hover para los enlaces dentro de .cardval__links */
 .cardval__links .link:hover {
   text-decoration: underline;
 }
 
+/* Contenedor para las tarjetas de valoraciones */
 .cartas_valoraciones {
   display: flex;
   align-items: center;
@@ -435,6 +504,7 @@ body {
   gap: 2rem;
 }
 
+/* Estilo de las imágenes dentro de .cartas_valoraciones */
 .fotosval {
   width: 250px;
   height: auto;
@@ -442,17 +512,20 @@ body {
   margin-left: 45px;
 }
 
+/* Estilo para los emoticonos dentro de la sección */
 .emoji {
   text-align: center;
   margin-top: -10px;
 }
 
+/* Estilo para la sección de preferencias */
 .preferencia {
   color: white;
   font-family: var(--font-sans);
   margin-top: 3cm;
 }
 
+/* Estilo del pie de página */
 footer {
   background-color: #333;
   color: #fff;
@@ -462,6 +535,7 @@ footer {
   width: 100%;
 }
 
+/* Contenedor para los elementos dentro del pie de página */
 .footer-container {
   display: flex;
   justify-content: space-around;
@@ -469,11 +543,13 @@ footer {
   width: 100%;
 }
 
+/* Estilo para los elementos dentro del pie de página */
 .footer-container div {
   flex: 1;
   padding: 10px;
 }
 
+/* Títulos dentro de las secciones del pie de página */
 .footer-about h3,
 .footer-links h3,
 .footer-social h3 {
@@ -482,23 +558,27 @@ footer {
   text-transform: uppercase;
 }
 
+/* Estilo para los párrafos dentro de .footer-about */
 .footer-about p {
   font-size: 14px;
   line-height: 1.6;
 }
 
+/* Estilo de las listas dentro de .footer-links y .footer-social */
 .footer-links ul,
 .footer-social ul {
   list-style: none;
   padding: 0;
 }
 
+/* Estilo para los elementos de la lista dentro de .footer-links y .footer-social */
 .footer-links ul li,
 .footer-social ul li {
   margin-bottom: 10px;
   margin-left: 3cm;
 }
 
+/* Estilo para los enlaces dentro de las listas de .footer-links y .footer-social */
 .footer-links ul li a,
 .footer-social ul li a {
   color: #fff;
@@ -507,11 +587,13 @@ footer {
   transition: color 0.3s ease;
 }
 
+/* Efecto hover para los enlaces dentro de .footer-links y .footer-social */
 .footer-links ul li a:hover,
 .footer-social ul li a:hover {
   color: #2081a7;
 }
 
+/* Estilo para el área de pie de página */
 .footer-bottom {
   text-align: center;
   padding: 10px 0;
@@ -519,6 +601,7 @@ footer {
   font-size: 12px;
 }
 
+/* Estilo para el contenedor de las redes sociales */
 .cardsocial {
   width: fit-content;
   height: fit-content;
@@ -529,6 +612,7 @@ footer {
   gap: 20px;
 }
 
+/* Estilo para el contenedor de cada icono social */
 .socialContainer {
   width: 52px;
   height: 52px;
@@ -540,6 +624,7 @@ footer {
   transition-duration: 0.3s;
 }
 
+/* Estilo para el contenedor de la primera red social (con hover) */
 .containerOne:hover {
   background-color: #d62976;
   transition-duration: 0.3s;
@@ -547,6 +632,7 @@ footer {
   border-radius: 15px;
 }
 
+/* Estilo para el contenedor de la segunda red social (con hover) */
 .containerTwo:hover {
   background-color: #00acee;
   transition-duration: 0.3s;
@@ -554,6 +640,7 @@ footer {
   border-radius: 15px;
 }
 
+/* Estilo para el contenedor de la tercera red social (con hover) */
 .containerThree:hover {
   background-color: #0072b1;
   transition-duration: 0.3s;
@@ -561,6 +648,7 @@ footer {
   border-radius: 15px;
 }
 
+/* Estilo para el contenedor de la cuarta red social (con hover) */
 .containerFour:hover {
   background-color: #25d366;
   transition-duration: 0.3s;
@@ -568,23 +656,28 @@ footer {
   border-radius: 15px;
 }
 
+/* Efecto activo en los contenedores sociales (cuando se hace clic) */
 .socialContainer:active {
   transform: scale(0.9);
   transition-duration: 0.3s;
 }
 
+/* Estilo para los iconos SVG dentro de los contenedores sociales */
 .socialSvg {
   width: 17px;
 }
 
+/* Estilo para las rutas dentro de los iconos SVG */
 .socialSvg path {
   fill: rgb(255, 255, 255);
 }
 
+/* Efecto hover en los iconos SVG dentro de los contenedores sociales */
 .socialContainer:hover .socialSvg {
   animation: slide-in-top 0.3s both;
 }
 
+/* Animación para el efecto de deslizamiento de los iconos sociales */
 @keyframes slide-in-top {
   0% {
     transform: translateY(50px);
@@ -596,3 +689,4 @@ footer {
     opacity: 1;
   }
 }
+
