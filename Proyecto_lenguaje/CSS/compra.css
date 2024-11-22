@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: 33% 34% 33%;
   gap: 20px;
-  padding: 1px;
+  padding: 10px;
   padding-right: 25px;
 }
 

@@ -1,0 +1,45 @@
+-- Trabajo realizado por Sergio Ponce Castro--
+
+En este trabajo he realizado una pagina web sobre una empresa ficticia llamada CarFlex, dentro de ella podremos navergar sobre diferentes apartados que he implementado:
+
+-Pagina Principal-
+
+Mi página web "CarFlex" está diseñada para promover la venta de automóviles y facilitar su exploración por parte de los usuarios. Incluye un encabezado fijo que contiene el logotipo de la empresa, un menú de navegación con enlaces a secciones clave como "Inicio", "Nuestros Coches", "About" y "Contacto", además de botones interactivos para "Inicio de Sesión" y "Registro".
+
+En el cuerpo principal, se destaca un título que invita al usuario a seleccionar una ciudad de preferencia y se despliegan tarjetas informativas para diferentes ciudades de España, como Madrid, Barcelona, Sevilla, Valencia, y más. Cada tarjeta incluye una breve descripción sobre las ventajas de conducir en la ciudad seleccionada y un botón que redirige a una página con más detalles sobre los vehículos disponibles. También se presenta una sección de valoraciones donde los usuarios comparten opiniones sobre modelos destacados, acompañadas de imágenes de los automóviles y descripciones detalladas. 
+
+Finalmente, el pie de página ofrece información sobre la empresa, enlaces rápidos para facilitar la navegación, y botones para redes sociales como Instagram, Twitter, Facebook y WhatsApp, asegurando así una experiencia completa e interactiva para el usuario.
+
+
+-Compra de Coches-
+
+La página web de compra es una extensión del sitio principal, enfocada en presentar los modelos de automóviles disponibles en esta ciudad. La estructura incluye un encabezado fijo con el logotipo y un menú de navegación que permite a los usuarios moverse entre las secciones principales, como "Inicio", "Nuestros Coches", "About" y "Contacto", además de botones para "Inicio de Sesión" y "Registro". En el cuerpo de la página se encuentran varias tarjetas de productos, cada una representando un automóvil disponible, como el Seat Ibiza, Audi A1 Sportback, Mercedes CLA, entre otros. Estas tarjetas contienen imágenes dinámicas que cambian al hacer clic, junto con detalles técnicos, precios (incluyendo posibles ofertas), y un botón de compra que redirige a la página de adquisición. Ademas, se presenta una sección "Premium" donde se destacan modelos de alta gama, como el Mercedes Clase G y el Audi RS7 Sportback, con especificaciones detalladas y precios correspondientes. El diseño interactivo incluye scripts para actualizar imágenes dinámicamente, haciendo la experiencia más atractiva y funcional para el usuario.
+
+
+-Pago-
+
+La página web "Compra" permite a los usuarios realizar el pago de un automóvil seleccionado. Está estructurada para recopilar los datos necesarios para procesar la transacción y ofrece múltiples opciones de pago. Incluye un formulario centralizado donde el usuario debe proporcionar información como su nombre completo, número de tarjeta, fecha de caducidad y el código CVV. Además, la página presenta un botón principal para completar la compra, que redirige a una página de confirmación al finalizar el proceso. También se destaca una sección de pago alternativo que permite al usuario optar por servicios externos como PayPal, Apple Pay o Google Pay, con botones interactivos que redirigen a las plataformas correspondientes. 
+
+
+-Una vez realizado el pago-
+
+La página web "trascomprar.html" está diseñada para confirmar la finalización de una compra y proporcionar información al usuario sobre el proceso de entrega. Se incluye una imagen representativa para indicar que el producto a sido adquirido y un mensaje adicional que informa al usuario que recibirá su coche en un plazo de 4 a 9 días hábiles. Además, se ofrece un botón de regreso a la página principal, que utiliza un ícono de casa para mejorar la experiencia visual. Este botón está asociado a una función de JavaScript que redirige al usuario a la página de inicio al hacer clic. 
+
+
+-Inicio Sesion / Registro-
+
+El cuerpo principal presenta un elemento interactivo de "flip-card" que permite alternar entre los formularios de inicio de sesión y registro mediante un interruptor. Cada formulario incluye campos de entrada para correo electrónico, contraseña y, en el caso del registro, un campo adicional para el nombre del usuario. Las acciones de los botones están vinculadas a funciones JavaScript que redirigen a otra página tras completar la acción y muestran alertas de confirmación.
+
+
+-About-
+
+La estructura incluye un encabezado con un logotipo y un menú de navegación que conecta a las secciones principales del sitio. El contenido principal presenta una introducción sobre la empresa, destacando que CarFlex fue fundada en 2014 en Sevilla con el propósito de facilitar la compra de vehículos y adaptarse a las necesidades de los clientes. También incluye perfiles de los miembros clave del equipo, como el CEO, el jefe de innovación y la directora de ventas, con fotos y descripciones de sus roles y objetivos dentro de la compañía. Además, cuenta con un pie de página que proporciona información adicional sobre la misión de la empresa, enlaces rápidos a otras páginas del sitio y accesos directos a redes sociales como Instagram, Twitter y WhatsApp.
+
+
+-Sobre Nosotros-
+
+La página web de "Contactos" de CarFlex, diseñada para facilitar la comunicación entre los usuarios y la empresa. Incluye un encabezado con el logotipo y un menú de navegación que dirige a diferentes secciones del sitio. En el contenido principal, se describen las diversas formas de contacto disponibles, destacando la atención personalizada ofrecida por los agentes de la compañía. También se presentan enlaces a redes sociales como Instagram, Twitter, Facebook y WhatsApp para una interacción más directa. Además, se incluye información detallada de localización con una dirección física y número telefónico.
+
+-Conclusión-
+
+En conclusión, el desarrollo de páginas web ha sido un proceso fascinante que combina creatividad y técnica. A lo largo de este trabajo, he aprendido que no se trata solo de escribir código, sino de crear elementos visuales atractivos para el espectador. Cada elemento, desde el diseño hasta la funcionalidad, juega un papel crucial en cómo los visitantes perciben y navegan por el sitio. La importancia de un diseño atractivo y una estructura clara no puede subestimarse, ya que son fundamentales para mantener la atención del usuario y facilitar su interacción. Además, el uso de tecnologías como HTML, CSS y JavaScript permite que las páginas sean dinámicas y responsivas, adaptándose a diferentes dispositivos. En resumen, este trabajo me ha permitido apreciar el impacto que tienen las páginas web en nuestra vida diaria y la habilidad que se requiere para crear entornos digitales efectivos y agradables.

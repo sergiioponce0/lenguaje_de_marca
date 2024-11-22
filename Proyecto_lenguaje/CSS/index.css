@@ -200,8 +200,8 @@ body {
  /* VIDEO */
 .card:nth-child(1):before {
   background-image: url(../fotos/madrid-2809947_1280.jpg);
-  filter: brightness(0.8);
-  -webkit-filter: brightness(0.8);
+  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
 }
 
 .card:nth-child(2):before {
