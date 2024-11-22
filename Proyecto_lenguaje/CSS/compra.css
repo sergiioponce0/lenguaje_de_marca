@@ -3,7 +3,7 @@ body {
   background-image: url(../fotos/fondo_definitivo.jpg);
   background-attachment: fixed;
 }
-
+/* VIDEO */
 .modal {
   width: fit-content;
   height: fit-content;
@@ -20,14 +20,15 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 19.25cm;
 }
-
+/* VIDEO */
 .form {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
 }
-
+/* VIDEO */
+/* CARTA PAGOS */
 .payment--options {
   width: calc(100% - 40px);
   display: grid;
@@ -116,7 +117,8 @@ body {
   color: #8b8e98;
   font-weight: 10000;
 }
-
+/* VIDEO */
+/* FONDO DEL RELLENABLE*/
 .input_field {
   width: auto;
   height: 40px;

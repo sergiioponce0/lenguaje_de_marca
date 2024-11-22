@@ -99,7 +99,7 @@
   :root {
     --currencyPrefix: "";
   }
-  
+   /* VIDEO */
   @font-face {
     font-family: 'fuente';
     src: url('../fuentes/GT-Walsheim-Black-Oblique-Trial-BF651b7fc5608e6.otf') format('truetype');
@@ -151,6 +151,7 @@
     list-style-type: none;
   }
   /*dentro del min-height se toca la altura entre cada carta*/
+   /* VIDEO */
   .contenedorCards {
     display: flex;
     flex-direction: row;
@@ -165,7 +166,7 @@
   }
   .contenedorCards .card {
     width: 450px;
-    transition: ease all 0.5s;
+    transition: ease all 5.5s;
     -webkit-transition: ease all 0.5s;
     -moz-transition: ease all 0.5s;
     -ms-transition: ease all 0.5s;
@@ -184,6 +185,7 @@
   .contenedorCards .card.enCarrito .wrapper .infoProd .actions .action.alCarrito .outCart {
     transform: scale(0);
   }
+   /* VIDEO */
   .contenedorCards .card .wrapper {
     margin: 10px 10px 200px 10px;
     padding-top: 250px;
@@ -202,7 +204,7 @@
   .contenedorCards .card .wrapper:hover .imgProd {
     height: 350px;
   }
-
+ /* VIDEO */
   .texopremium{
     margin-top: 1.4cm;
   }
