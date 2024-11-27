@@ -154,54 +154,66 @@ body {
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(/Proyecto_lenguaje/fotos/madrid-2809947_1280.jpg);
-  filter: brightness(0.8);
-  -webkit-filter: brightness(0.8);
+  background-image: url(../fotos/madrid-2809947_1280.jpg);
+  filter: brightness(0.9);
+  -webkit-filter: brightness(0.9);
 }
-  
+
 .card:nth-child(2):before {
-  background-image: url(/Proyecto_lenguaje/fotos/KI6YREIHSARWVGEKG37ZARHCFQ.jpg);
+  background-image: url(../fotos/KI6YREIHSARWVGEKG37ZARHCFQ.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(3):before {
-  background-image: url(/Proyecto_lenguaje/fotos/puente.jpg);
+  background-image: url(../fotos/puente.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(4):before {
-  background-image: url(/Proyecto_lenguaje/fotos/valencia.jpg);
+  background-image: url(../fotos/valencia.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(5):before {
-  background-image: url(/Proyecto_lenguaje/fotos/Murcia-vertical.jpg);
+  background-image: url(../fotos/Murcia-vertical.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
 
 .card:nth-child(6):before {
-  background-image: url(/Proyecto_lenguaje/fotos/malaga.jpg);
+  background-image: url(../fotos/malaga.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(7):before {
-  background-image: url(/Proyecto_lenguaje/fotos/bilbao.jpg);
+  background-image: url(../fotos/bilbao.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.8);
 }
+
 .card:nth-child(8):before {
-  background-image: url(/Proyecto_lenguaje/fotos/valladolild.jpg);
+  background-image: url(../fotos/valladolild.jpg);
   filter: brightness(0.9);
   -webkit-filter: brightness(0.9);
 }
+
 .card:nth-child(9):before {
-  background-image: url(/Proyecto_lenguaje/fotos/laspalmasprueba.jpg);
+  background-image: url(../fotos/laspalmasprueba.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
+.card:nth-child(9):before {
+  background-image: url(../fotos/laspalmasprueba.jpg);
+  filter: brightness(0.8);
+  -webkit-filter: brightness(0.8);
+}
+
 .card:nth-child(10):before {
-  background-image: url(/Proyecto_lenguaje/fotos/Zaragoza.jpg);
+  background-image: url(../fotos/Zaragoza.jpg);
   filter: brightness(0.8);
   -webkit-filter: brightness(0.8);
 }
