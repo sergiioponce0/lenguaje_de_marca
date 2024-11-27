@@ -123,7 +123,7 @@ body {
 @media (max-width: 600px) {
   .header {
     width: 800px;
-    height: 150px; /* Cambia la altura a 100px o al valor que desees */
+    height: 150px; 
   }
   .menu {
     margin-top: -1cm;

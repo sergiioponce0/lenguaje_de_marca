@@ -1,15 +1,6 @@
 
 
-@media (max-width: 600px) {
-  .header {
-    height: 60px;
-    font-size: 14px;
-  }
 
-  .imgProd{
-    margin-top: -cm;
-  }
-}
   .header {
     width: 100%;
     height: 75px;
@@ -635,3 +626,45 @@
   .button:hover:before {
     bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
   }
+
+  /* Estilos generales que se aplican a la mayoría de los dispositivos */
+
+
+/* Otros estilos generales aquí */
+
+@media (max-width: 768px) {
+  /* Cambios de estilo para pantallas pequeñas */
+  .header {
+    width: 800px;
+    height: 220px; 
+  }
+  .menu {
+    margin-top: -1cm;
+    margin-right: 8cm;
+  }
+ 
+
+  .contenedorCards {
+    flex-direction: column; /* Cambia la dirección de las cartas a columna */
+    gap: 1px; /* Espacio entre cada carta */
+    height: auto; /* Ajusta la altura automáticamente */
+    
+    
+  }
+
+  .contenedorCards .card {
+    margin-top: 4cm;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: none; /* Elimina el límite de ancho máximo */
+    min-height: -40vh;
+    margin-bottom: -320px;
+  }
+  
+  img {
+    width: 390px;
+  }
+
+  .texopremium{
+    margin-top: 6cm;
+  }
+}
